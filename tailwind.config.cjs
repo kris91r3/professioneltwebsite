@@ -7,6 +7,7 @@ module.exports = {
       offwhite: "#eeeeee",
       black: "#000000",
       grey: "#3e3e3e",
+      lightgrey: "#5b5b5b",
       Lime: "#ccff00",
       Limehover: "#96bb00",
       Darkgrey: "#4b4b4b",
