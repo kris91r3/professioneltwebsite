@@ -11,6 +11,7 @@ module.exports = {
       Lime: "#ccff00",
       Limehover: "#96bb00",
       blaa: "#0068ba",
+      blaahover: "#00518f",
 
       backgroundSize: {
         auto: "auto",
@@ -27,6 +28,9 @@ module.exports = {
 
         md: "710px",
         // => @media (min-width: 710px) { ... }
+      },
+      dropShadow: {
+        "3xl": "0 2px 2px rgba(0, 0, 0, 0.20)",
       },
     },
   },
