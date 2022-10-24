@@ -4,18 +4,26 @@
 
 @layer base {
   h1 {
-    font-family: "Carter One", "Archivo Black", sans-serif;
-  }
-
-  h2 {
-    font-family: "Carter One", sans-serif;
+    font-family: "Archivo Black", sans-serif;
   }
 
   h3,
+  h2 {
+    font-family: "Archivo Black", sans-serif;
+  }
+
+  h4 {
+    font-family: "Roboto", "Karla", sans-serif;
+  }
   p,
   li {
     font-family: "Roboto", "Karla", sans-serif;
     font-size: 1.0625rem;
     line-height: 1.6;
+  }
+
+  #webfeature img:hover,
+  #spil img:hover {
+    opacity: 15%;
   }
 }
