@@ -7,7 +7,7 @@ inView("#spil", ({ target }) => {
   animate(
     target.querySelectorAll("div"),
     { x: [-2000, 0] },
-    { duration: 1.5, delay: stagger(0.9, { start: 0.2 }) }
+    { duration: 1.2, delay: stagger(0.8, { start: 0.2 }) }
   );
 
   return () => {
@@ -19,7 +19,7 @@ inView("#webfeature", ({ target }) => {
   animate(
     target.querySelectorAll("div"),
     { x: [-2000, 0] },
-    { duration: 1.5, delay: stagger(0.9, { start: 0.2 }) }
+    { duration: 1.2, delay: stagger(0.8, { start: 0.2 }) }
   );
 
   return () => {
