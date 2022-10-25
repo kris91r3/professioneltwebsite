@@ -21,9 +21,10 @@
     font-size: 1.0625rem;
     line-height: 1.6;
   }
-  /* 
-  #webfeature img:hover,
+
+  /* #webfeature img:hover,
   #spil img:hover {
-    opacity: 10%;
+    background-color: black;
+    opacity: 0%;
   } */
 }
