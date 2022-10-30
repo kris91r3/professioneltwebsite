@@ -9,26 +9,32 @@
       href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Carter+One&family=Roboto:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Portfolio</title>
   </head>
   <body class="bg-lightgrey xl:mx-32">
     <main>
       <section class="grid gap-5 p-5 lg:grid-cols-2">
-        <div class="bg-grey pl-10">
-          <div class="flex flex-col gap-5 pt-10">
+        <div class="bg-grey lg:relative">
+          <div class="flex flex-col gap-5 pt-10 pl-10">
             <h1
               class="text-3xl font-extrabold text-offwhite sm:text-4xl md:text-5xl"
             >
               Kristina Seefeld Andersen
             </h1>
-            <h2 class="text-lg font-thin text-offwhite md:pt-2 md:text-xl">
+            <h2
+              class="text-lg font-thin tracking-widest text-offwhite md:text-2xl"
+            >
               Multimediedesigner
             </h2>
           </div>
 
           <img
-            class="inline-block align-bottom drop-shadow-lg"
+            class="lg:absolute lg:bottom-0"
             src="billeder/vektorbillede.svg"
             alt="vektorportræt af Kristina"
           />
@@ -37,32 +43,35 @@
           class="6 grid border-2 border-Lime lg:mx-0 lg:place-content-center"
         >
           <div class="flex flex-col gap-5 p-10 text-offwhite md:px-16">
-            <h3 class="text-2xl font-black">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <h3 class="text-xl font-black md:text-2xl">
+              Kreativ udfoldelse med brugeroplevelsen i fokus.
             </h3>
             <p>
               Mit navn er Kristina og jeg er i gang med mit 3. semester på KEA,
               hvor jeg studerer multimediedesign. Jeg har på mit studie arbejdet
               med digitaldesign og digitale designprocesser.
+              Multimediedesignuddannelsen breder sig ud over flere områder, som
+              jeg finder spændende.
             </p>
             <p>
-              Mine interesser ligger inden for UX og UI-design. At få lov at
-              bygge en bro mellem brugeroplevelsen og virksomhedens produkt
-              igennem research, brugerundersøgelser, testning etc. for at
-              udvikle og skabe en velfungerende brugergrænseflade for produktet.
+              Mine interesser ligger inden for grafisk design, jeg finder især
+              UX og UI-designer processerne spændende. At få lov at bygge en bro
+              mellem brugeroplevelsen og virksomhedens produkt igennem research,
+              brugerundersøgelser, testning etc. for at udvikle og skabe en
+              velfungerende brugergrænseflade for produktet. At skabe
+              illustrationer i illustrator er også en del af min guilty
+              pleasure.
             </p>
 
             <p>
               Derudover interesserer jeg mig også for kodning med CSS og Html,
               som gør mig i stand til at arbejde tværfagligt i teams. Jeg er
               detaljeorienteret, som gør mig i stand til at se de små ting som
-              andre oftest overser. Med fokus på grøn omstilling, har jeg et
-              ønske om at videreudvikle mine færdigheder inden for bæredygtig
-              webudvikling.
+              andre oftest overser.
             </p>
           </div>
           <div
-            class="relative my-10 animate-pulse place-self-center drop-shadow-3xl hover:mix-blend-overlay"
+            class="linkedinpuls relative my-10 place-self-center drop-shadow-3xl hover:mix-blend-overlay"
           >
             <a
               href="https://www.linkedin.com/in/kristina-seefeld-andersen-multimediedesigner"
@@ -80,7 +89,7 @@
           <div
             class="flex flex-col gap-5 border-2 border-Lime p-10 text-offwhite md:px-16 lg:mx-0"
           >
-            <h3 class="text-2xl font-black">Erfaring</h3>
+            <h3 class="text-xl font-black md:text-2xl">Erfaring</h3>
             <p>
               Jeg har nuværende tidspunkt arbejdet i Figma og diverse Adobe
               programmer såsom XD, Photoshop, Illustrator, InDesign og Premiere
@@ -91,7 +100,7 @@
               stand til at udvikle, optimere, programmere og giver mig
               kompetencer til at arbejde tværfagligt i teams.
             </p>
-            <h3 class="text-2xl font-black">Kompetancer</h3>
+            <h3 class="text-xl font-black md:text-2xl">Kompetancer</h3>
             <ul class="list-disc pl-14 marker:text-Lime">
               <li>Adobe XD</li>
               <li>Adobe Illustrator</li>
@@ -108,7 +117,7 @@
         </div>
         <div class="order-1 bg-grey lg:relative lg:order-none">
           <img
-            class="drop-shadow-lg lg:absolute lg:bottom-0"
+            class="lg:absolute lg:bottom-0"
             src="billeder/pcskaerm.svg"
             alt="vektorbillede af pc-skærm"
           />
@@ -116,19 +125,21 @@
       </section>
       <section>
         <div class="mx-5 mb-5 border-2 border-Lime">
-          <h2
+          <h3
             class="pt-10 pl-10 text-2xl font-black text-offwhite md:pb-20 md:pl-16"
           >
             Udvalgte skoleprojekter
-          </h2>
+          </h3>
           <div class="grid gap-24 p-10 text-offwhite md:px-16 lg:grid-rows-2">
             <div class="grid gap-10 lg:grid-cols-2" id="spil">
               <div>
-                <h3 class="pb-5 text-2xl font-black">Spil</h3>
+                <h4 class="pb-5 text-2xl font-black">Spil</h4>
                 <p>
-                  Et simpelt spil lavet på 1. semester. Spillet er designet fra
-                  bunden ved brug af Illustrator og kodet med HTML, CSS og
-                  JavaScript
+                  Et simpelt spil lavet på 1. semester, hvor vi lærte at
+                  fremstille interaktive brugergrænseflader, der engagerer og
+                  motiverer brugeren. Spillet er skabt ved idégenerering og
+                  designet fra bunden og rentegnet i Illustrator og kodet med
+                  HTML, CSS-animationer og JavaScript.
                 </p>
               </div>
               <div class="group relative">
@@ -144,7 +155,7 @@
                 >
                   <img
                     class=""
-                    src="billeder/spillet.webp"
+                    src="billeder/spillet.svg"
                     alt="skoleprojekt spil"
                   />
                 </a>
@@ -152,11 +163,16 @@
             </div>
             <div class="grid gap-10 lg:grid-cols-2" id="webfeature">
               <div>
-                <h3 class="pb-5 text-2xl font-black">webfeature</h3>
+                <h4 class="pb-5 text-2xl font-black">webfeature</h4>
                 <p>
-                  Webfeature en 3. semester gruppeopgave produceret på baggrund
-                  af en given case. Wireframes og prototyper blev skabt i Figma
-                  og efterfølgende kodet i Tailwind CSS.
+                  Webfeature en 3. semesters gruppeopgave. En webbaseret,
+                  interaktiv multimedie dokumentar, der kombinerer tekst, foto,
+                  video, lyd, animation og grafik. Med udgangspunkt i et
+                  designbrief, skulle udvikle et visuelt koncept, via
+                  wireframes, prototyper, som efterfølgende skulle implementeres
+                  på et website. Målet var at lave en løsning, som brugerne
+                  kunne anvende med så lidt friktion som muligt. Der blev brugt
+                  Tailwind CSS til at løse opgaven.
                 </p>
               </div>
               <div class="group relative">
@@ -171,7 +187,7 @@
                 >
                   <img
                     class=""
-                    src="billeder/webfeature.webp"
+                    src="billeder/analogkamera.svg"
                     alt="skoleprojekt webfeature"
                   />
                 </a>

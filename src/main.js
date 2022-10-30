@@ -7,11 +7,11 @@ inView("#spil", ({ target }) => {
   animate(
     target.querySelectorAll("div"),
     { x: [-2000, 0] },
-    { duration: 1, delay: stagger(0.8, { start: 0.2 }) }
+    { duration: 0.7, delay: stagger(1, { start: 0.2 }) }
   );
 
   return () => {
-    animate(target, { x: [-2000, 0] }, { duration: 1 });
+    animate(target, { x: [-2000, 0] }, { duration: 0.7 });
   };
 });
 
@@ -19,10 +19,10 @@ inView("#webfeature", ({ target }) => {
   animate(
     target.querySelectorAll("div"),
     { x: [-2000, 0] },
-    { duration: 1, delay: stagger(0.8, { start: 0.2 }) }
+    { duration: 0.7, delay: stagger(1, { start: 0.2 }) }
   );
 
   return () => {
-    animate(target, { x: [-2000, 0] }, { duration: 1 });
+    animate(target, { x: [-2000, 0] }, { duration: 0.7 });
   };
 });

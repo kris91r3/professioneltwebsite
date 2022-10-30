@@ -7,17 +7,16 @@
     font-family: "Archivo Black", sans-serif;
   }
 
-  h3,
-  h2 {
+  h3 {
     font-family: "Archivo Black", sans-serif;
   }
-
+  h2,
   h4 {
-    font-family: "Roboto", "Karla", sans-serif;
+    font-family: "Source Sans Pro", "Roboto", sans-serif;
   }
   p,
   li {
-    font-family: "Roboto", "Karla", sans-serif;
+    font-family: "Source Sans Pro", "Roboto", sans-serif;
     font-size: 1.0625rem;
     line-height: 1.6;
   }
@@ -27,4 +26,22 @@
     background-color: black;
     opacity: 0%;
   } */
+
+  .linkedinpuls {
+    animation-name: puls;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+  @keyframes puls {
+    0% {
+      transform: scale(0.9);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
 }
