@@ -7,11 +7,11 @@ module.exports = {
       offwhite: "#eeeeee",
       black: "#000000",
       grey: "#2e2e2e",
-      lightgrey: "#4a4a4a",
+      lightgrey: "#505050",
       Lime: "#ccff00",
       Limehover: "#96bb00",
-      blaa: "#0068ba",
-      blaahover: "#00518f",
+      blaa: "#1767ee",
+      laks: "#fcafaa",
 
       backgroundSize: {
         auto: "auto",
