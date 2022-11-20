@@ -29,7 +29,7 @@
 
   .linkedinpuls {
     animation-name: puls;
-    animation-duration: 0.7s;
+    animation-duration: 0.4s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
@@ -37,7 +37,25 @@
 
   @keyframes puls {
     0% {
-      transform: scale(0.9);
+      transform: scale(0.8);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .animationspuls {
+    animation-name: puls;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+  @keyframes puls {
+    0% {
+      transform: scale(0.96);
     }
 
     100% {

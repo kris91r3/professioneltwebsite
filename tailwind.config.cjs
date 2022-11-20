@@ -10,8 +10,8 @@ module.exports = {
       lightgrey: "#505050",
       Lime: "#ccff00",
       Limehover: "#96bb00",
-      blaa: "#1767ee",
-      laks: "#fcafaa",
+      blaa: "#4100cc",
+      pink: "#ff00ff",
 
       backgroundSize: {
         auto: "auto",
