@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    font-family: "Archivo Black", "Emblema One", sans-serif;
+    font-family: "Archivo Black", sans-serif;
   }
 
   h3,
@@ -13,20 +13,14 @@
     line-height: 1.2;
   }
   h2 {
-    font-family: "Source Sans Pro", "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
   }
   p,
   li {
-    font-family: "Source Sans Pro", "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.0625rem;
     line-height: 1.6;
   }
-
-  /* #webfeature img:hover,
-  #spil img:hover {
-    background-color: black;
-    opacity: 80%;
-  } */
 
   .linkedinpuls {
     animation-name: puls;
