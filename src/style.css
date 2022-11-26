@@ -7,11 +7,12 @@
     font-family: "Archivo Black", "Emblema One", sans-serif;
   }
 
-  h3 {
-    font-family: "Archivo Black", sans-serif;
-  }
-  h2,
+  h3,
   h4 {
+    font-family: "Archivo Black", sans-serif;
+    line-height: 1.2;
+  }
+  h2 {
     font-family: "Source Sans Pro", "Roboto", sans-serif;
   }
   p,
